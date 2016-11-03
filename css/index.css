@@ -1,0 +1,41 @@
+.container {
+        position: relative;
+    }
+    header {
+        
+    }
+    nav {
+        
+    }
+    nav button {
+        float: left;
+    }
+    section {
+        float: left;
+        width: 30%;
+        margin: 0 1.5%;
+    }
+    footer {
+        clear: left;
+    }
+    img.pan {
+        max-width: 1700px;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        
+    }
+    h1 {
+        font-family: "Poiret One", Times, serif;
+        color: #B2570D;
+        font-variant: small-caps;
+        font-weight: bold;
+        text-align: center;
+    }
+    img.pan:hover {
+    }
+    /*  font-family: 'Marck Script', cursive;
+        font-family: 'Neucha', cursive;
+        font-family: 'Poiret One', cursive;
+        font-family: 'Pattaya', sans-serif;
+        font-family: 'Underdog', cursive; */
