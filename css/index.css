@@ -1,10 +1,10 @@
 body {
     background-image: css/img/paper-background.jpg;
-    background-attachment: fixed;
+    background-repeat: repeat;
 }
-.container {
+/*.container {
         position: relative;
-    }
+    }*/
     header {
         
     }
@@ -23,10 +23,11 @@ body {
         clear: left;
     }
     img.pan {
-        max-width: 100%;
+        max-width: 85%;
         margin: auto;
-        position: fixed;
+        /*position: fixed;*/
         top: 0;
+        
         
     }
     h1 {
@@ -38,6 +39,7 @@ body {
     }
     p {
         font-family: Underdog, Times, serif;
+        text-align: justify;
         color: #573519;
     } 
     /*  font-family: 'Marck Script', cursive;
