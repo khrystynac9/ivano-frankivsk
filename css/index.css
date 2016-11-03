@@ -1,3 +1,7 @@
+body {
+    background-image: css/img/paper-background.jpg;
+    background-attachment: fixed;
+}
 .container {
         position: relative;
     }
@@ -19,7 +23,7 @@
         clear: left;
     }
     img.pan {
-        max-width: 1700px;
+        max-width: 100%;
         margin: auto;
         position: fixed;
         top: 0;
@@ -32,8 +36,10 @@
         font-weight: bold;
         text-align: center;
     }
-    img.pan:hover {
-    }
+    p {
+        font-family: Underdog, Times, serif;
+        color: #573519;
+    } 
     /*  font-family: 'Marck Script', cursive;
         font-family: 'Neucha', cursive;
         font-family: 'Poiret One', cursive;
