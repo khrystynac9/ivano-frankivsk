@@ -1,0 +1,71 @@
+body {
+    background-image: url(../img/background.jpg);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+/*.container {
+        position: relative;
+    }*/
+
+header {}
+
+nav {}
+
+nav button {
+    float: left;
+}
+
+section {
+    margin: 0 1.5%;
+}
+
+footer {
+    clear: left;
+}
+
+img.pan {
+    width: 100%;
+    margin: auto;
+    /* max-width: 100%;
+        margin-left: 100px;*/
+    /*position: fixed;
+        top: 0;*/
+}
+img.icon {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    opacity: 0.7;
+}
+img.icon:hover {
+    width: 400px;
+    height: 400px;
+    opacity: 1.0;
+}
+
+h1 {
+    font-family: "Poiret One", Times, serif;
+    color: #B2570D;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: Underdog, Times, serif;
+    text-align: justify;
+    color: #573519;
+}
+p::first-letter {
+    color: #E64B93;
+}
+
+
+/*  font-family: 'Marck Script', cursive;
+        font-family: 'Neucha', cursive;
+        font-family: 'Poiret One', cursive;
+        font-family: 'Pattaya', sans-serif;
+        font-family: 'Underdog', cursive; */
