@@ -1,6 +1,5 @@
-section {
-    width: 100%;
-}
-ul#menu li {
+ul#menu li, a {
     display: block;
+    width: 95%; 
+    text-align: center;
 }

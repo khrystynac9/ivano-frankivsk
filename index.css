@@ -13,12 +13,30 @@ header {}
 
 nav {}
 
+ul#menu a {
+    width: 20%;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ED5526;
+    color: #180B07;
+    text-decoration: none;
+    
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    background-color: #1EA619;
+}
+
 nav button {
     float: left;
 }
 
 section {
     margin: 0 1.5%;
+    padding: 10px;
 }
 
 footer {
