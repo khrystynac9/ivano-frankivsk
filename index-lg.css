@@ -1,8 +1,18 @@
-section {
+.section-column {
      float: left;
      width: 30%;
 }
-ul#menu li {
-    display: inline;
-    margin: 0 auto;
+
+.flex-menu {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+    width: 750px;
+    height: 500px;
+    
+}
+.flex-item {
+    width: 40%;
+    height: 10px;
 }
