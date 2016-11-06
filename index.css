@@ -8,32 +8,44 @@ header {}
 
 nav {}
 
+
+/*початок теню*/
+
 .flex-menu {
     display: -webkit-flex;
     display: flex;
- 
 }
+
 .flex-item {
     background-color: #ED5526;
+    background: radial-gradient(#f2c8b0, #ED5526);
     margin: 1.5%;
     border-radius: 20px;
     text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(37, 89, 96, 0.4);
 }
 
+.flex-item a {
+    display: block;
+    border-radius: 24px;
+}
 
+.menu {
+    position: relative;
+}
 
-
-
-a, .dropbtn {
+a,
+.dropbtn {
     display: inline-block;
-    color: white;
+    color: #282421;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+.dropdown:hover .dropbtn {
+    background-color: #b24003;
+    background: radial-gradient(#f2c8b0, #b24003);
 }
 
 .dropdown {
@@ -43,40 +55,45 @@ a:hover, .dropdown:hover .dropbtn {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #F5A11B;
+    background: radial-gradient(#f2c8b0, #F5A11B);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(37, 88, 93, 0.2);
+    border-radius: 20px;
 }
 
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #e2966c;
+    background: radial-gradient(#f2c8b0, #e2966c);
+    border-radius: 20px;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-
-
-
-
-
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
-    background-color: #CCE34B;
 }
-a:visited {
-    background-color: #1CED62;
+
+.flex-item a:hover {
+    background-color: #b24003;
+    background: radial-gradient(#f2c8b0, #b24003);
 }
+
+
+/*кінець теню*/
 
 section {
     margin: 0 1.5%;
@@ -87,10 +104,11 @@ footer {
     clear: left;
 }
 
-img.pan {
+.pan {
     width: 100%;
     margin: auto;
 }
+
 img.icon {
     width: 100px;
     height: 100px;
@@ -98,6 +116,7 @@ img.icon {
     margin: 10px;
     opacity: 0.7;
 }
+
 img.icon:hover {
     width: 140px;
     height: 140px;
@@ -117,6 +136,7 @@ p {
     text-align: justify;
     color: #573519;
 }
+
 p::first-letter {
     color: #E64B93;
 }

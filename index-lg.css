@@ -1,6 +1,6 @@
 .section-column {
-     float: left;
-     width: 30%;
+    float: left;
+    width: 30%;
 }
 
 .flex-menu {
@@ -8,10 +8,8 @@
     justify-content: space-around;
     width: 750px;
     height: 70px;
-    
 }
+
 .flex-item {
     width: 40%;
-    height: 90%px;
-   
 }
