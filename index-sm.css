@@ -1,10 +1,10 @@
-
 .flex-menu {
-    -webkit-flex-direction:column;
-    flex-direction:column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
     max-width: 700px;
     height: 250px;
 }
+
 .flex-item {
     max-width: 650px;
     height: 45px;
