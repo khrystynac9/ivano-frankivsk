@@ -4,15 +4,14 @@
 }
 
 .flex-menu {
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-align-content: center;
-    align-content: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
     width: 750px;
-    height: 500px;
+    height: 70px;
     
 }
 .flex-item {
     width: 40%;
-    height: 10px;
+    height: 90%px;
+   
 }
