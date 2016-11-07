@@ -102,7 +102,11 @@ a:hover {
 /* машинка */
 
 
-
+.small {
+    height: 10px;
+    width: 20px;
+} 
+ 
 .car {
   animation-name: drive;
   animation-duration: 10s;
