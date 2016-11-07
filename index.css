@@ -6,11 +6,14 @@ body {
 
 header {}
 
-nav {}
+nav {
+}
 
 
 /*початок теню*/
-
+.men {
+    clear: both;
+}
 .flex-menu {
     display: -webkit-flex;
     display: flex;
@@ -102,14 +105,20 @@ a:hover {
 /* машинка */
 
 
-.small {
-    height: 10px;
-    width: 20px;
+img.small {
+    height: 50px;
+    width: auto;
 } 
  
+ .poruch {
+  float: left;
+  margin-right: 300px;
+ }
+ 
 .car {
+ 
   animation-name: drive;
-  animation-duration: 10s;
+  animation-duration: 13s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -122,6 +131,7 @@ a:hover {
   animation-direction: alternate;
 }
 .rideEffect{
+
   animation-name: ride-effect;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -142,7 +152,7 @@ a:hover {
   to{    transform: scaleX(0.9);  }
 }
 @keyframes drive {
-  from{    transform: translateX(-100px);  }
+  from{    transform: translateX(-500px);  }
   to{    transform: translateX(1500px);  }
 }
 @keyframes polution {
