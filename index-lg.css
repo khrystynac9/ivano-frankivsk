@@ -17,10 +17,25 @@
 .foto {
     width: 380px;
     height: auto;
+    margin: 0 auto;
     margin-top: 30px;
 }
 
 .foto:hover {
     width: 150%;
     height: auto
+}
+
+.aside-men {
+    float: left;
+    max-width: 550px;
+} 
+
+.loc {
+    width: 500px;
+    
+}
+
+.artic {
+    margin-left: 550px;
 }
