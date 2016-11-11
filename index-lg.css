@@ -44,6 +44,17 @@
     float: left;
     width: 700px;
     height: auto;
-    margin: 20px;
+    margin: 40px;
+}
+.foto-events-two {
+    float: right;
+    width: 700px;
+    height: auto;
+    margin: 40px;
     
+}
+div.events {
+    margin-bottom: 80px;
+    clear: both;
+    margin-top: 50px;
 }
