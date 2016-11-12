@@ -15,18 +15,8 @@
     clear: both;
 }
 
-.foto:hover {
-    width: 130%;
-    height: auto;
-}
-    
-}
 .foto-events-two {
     width: 750px;
     height: auto;
 }
 
-.foto:hover {
-    width: 600px;
-    height: auto;
-}
