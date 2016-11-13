@@ -20,3 +20,30 @@
     height: auto;
 }
 
+.step {
+    margin-top: 80px;
+} 
+
+.artic {
+    clear: both;
+}
+.stars {
+    clear: both;
+    display: block;
+    margin: 20px;
+}
+
+.foto {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.foto-one {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    border-radius: 20px;
+}

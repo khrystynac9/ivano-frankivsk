@@ -8,7 +8,9 @@ header {}
 
 nav {
     clear: both;
-    text-align: center
+    text-align: center;
+    margin: 20px;
+  
 }
 
 
@@ -38,6 +40,7 @@ nav {
 .menu {
     position: relative;
     float: left;
+    margin-top: 10px;
 }
 
 a, .dropbtn {
@@ -114,7 +117,7 @@ a:hover {
  
  .poruch {
   float: left;
-  margin-right: 300px;
+  margin-right: 200px;
  }
  
 .car {
@@ -154,8 +157,8 @@ a:hover {
   to{    transform: scaleX(0.9);  }
 }
 @keyframes drive {
-  from{    transform: translateX(-1500px);  }
-  to{    transform: translateX(1500px);  }
+  from{    transform: translateX(-600px);  }
+  to{    transform: translateX(900px);  }
 }
 @keyframes polution {
   from{    transform: rotate(-360deg);  }
@@ -229,8 +232,40 @@ p::first-letter {
 .tosee {
     clear: both;
     margin: 20px;
+
 }
 
+.ramka {
+clear: both;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.relative-one {
+    position: relative;
+    margin-top: 0
+}
+
+.fixed-one {
+    position: fixed;
+    margin-top: 0;
+}
+
+.font-one {
+      font-family: 'Neucha', cursive;
+}
+
+.fakt {
+    margin: 80px;
+    margin-left: 140px;
+}
+    
+.facty{
+    list-style-type: disk;
+
+}
+    
+    
 /*  font-family: 'Marck Script', cursive;
         font-family: 'Neucha', cursive;
         font-family: 'Poiret One', cursive;

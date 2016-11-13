@@ -25,6 +25,7 @@
 .aside-men {
     float: left;
     max-width: 550px;
+    margin: 20px;
 } 
 
 .loc {
@@ -53,4 +54,26 @@ div.events {
     margin-bottom: 80px;
     clear: both;
     margin-top: 50px;
+}
+
+.step {
+    margin-top: 200px;
+} 
+
+.stars {
+    clear: both;
+    float: left;
+    margin: 20px;
+}
+
+.foto-one {
+    width: 200px;
+    height: auto;
+    margin: 30px;
+    border-radius: 20px;
+    
+}
+.text {
+    margin: 30px;
+    margin-top: 70px;
 }
