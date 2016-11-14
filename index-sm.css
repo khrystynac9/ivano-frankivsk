@@ -47,3 +47,10 @@
     margin: 10px;
     border-radius: 20px;
 }
+
+.video-one {
+    clear: both;
+    max-width: 300px;
+    height: auto;
+    margin: 20px;
+}
