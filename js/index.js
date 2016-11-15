@@ -8,6 +8,7 @@ function makeAjax() {
             var clientData = JSON.parse(xhr.responseText);
             name.innerHTML = clientData.name;
             address.innerHTML = clientData.address;
+            tel.innerHTML = clientData.tel;
         }
     }
     xhr.open('GET', 'data.json', true);
