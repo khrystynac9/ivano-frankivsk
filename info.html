@@ -11,11 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Marck+Script|Neucha|Pattaya|Poiret+One|Underdog" rel="stylesheet">
 </head>
 
-<body>
+<body class="body-info">
     <div class="relative-one">
         <nav class="fixed-one">
             <header>
-                <img class="pan" src="img/pan.jpg" alt="panorama">
                 <h1>Інформаційна сторінка</h1>
             </header>
             <div class="menu">
@@ -39,49 +38,104 @@
             </div>
         </nav>
     </div>
-<div class="info-one">   
-<table>
-    <caption> Перевір себе</caption>
-    <br>
-    <tr>
-        <th> Хто вважається офіційним засновником міста Станіславова?</th>
-        <td>Станіслав Потоцький</td>
-    </tr>
-    <tr>
-        <th> В якому році місто одержало Магдебурзьке право?</th>
-        <td>1662 р</td>
-    </tr>
-    <tr>
-        <th>Скільки в’їзних брам вело до Станіславова?</th>
-        <td>3 брами</td>
-    </tr>
-    <tr>
-        <th> Яку форму має сучасна Ратуша?</th>
-        <td>Форму хреста</td>
-    </tr>
-    <tr>
-        <th>Які птахи зображені на гербі Івано-Франківська?</th>
-        <td>Дві чорні галки</td>
-    </tr>
-    <tr>
-        <th>Як звали кохану Івана Франка, що мешкала в Івано-Франківську?</th>
-        <td>Юзефа Дзвонковська</td>
-    </tr>
-    <tr>
-        <th>Який навчальний заклад міста вважається найстарішим?</th>    
-        <td>Прикарпатський університет, заснований 1940 р.</td>
-    </tr>
-    <tr>
-        <th>В якому місяці проходить щорічний фестиваль «Свято ковалів»</th>
-        <td>травень</td>
-    </tr>
-</table>
- 
- <p>Більше Ви можете дізнатися, завітавши на офіційний сайт міста <a href="http://www.mvk.if.ua/">Івано-Франківськ.</p>
- <p>Aбо ж знайдіть нас у Facebook <a href="https://www.facebook.com/places/Cim-zajnatisa-v-Ivano-Frankivsk/108466925844385/"><img class="facebook" src = "img/facebook.jpg" alt ="facebook"></a></p>
- 
- 
-</div> 
+    <div class="info-one">
+        <table class="table-one">
+            <caption> Перевір себе</caption><br>
+            <br>
+            <tr>
+                <th> Хто вважається офіційним засновником міста Станіславова?</th>
+                <td>Станіслав Потоцький</td>
+            </tr>
+            <tr>
+                <th> В якому році місто одержало Магдебурзьке право?</th>
+                <td>1662 р</td>
+            </tr>
+            <tr>
+                <th>Скільки в’їзних брам вело до Станіславова?</th>
+                <td>3 брами</td>
+            </tr>
+            <tr>
+                <th> Яку форму має сучасна Ратуша?</th>
+                <td>Форму хреста</td>
+            </tr>
+            <tr>
+                <th>Які птахи зображені на гербі Івано-Франківська?</th>
+                <td>Дві чорні галки</td>
+            </tr>
+            <tr>
+                <th>Як звали кохану Івана Франка, що мешкала в Івано-Франківську?</th>
+                <td>Юзефа Дзвонковська</td>
+            </tr>
+            <tr>
+                <th>Який навчальний заклад міста вважається найстарішим?</th>
+                <td>Прикарпатський університет, заснований 1940 р.</td>
+            </tr>
+            <tr>
+                <th>В якому місяці проходить щорічний фестиваль «Свято ковалів»</th>
+                <td>травень</td>
+            </tr>
+        </table><br><br>
+
+        <!--        <p>Більше Ви можете дізнатися, завітавши на офіційний сайт міста <a href="http://www.mvk.if.ua/">Івано-Франківськ.</p>
+<p>Aбо ж знайдіть нас у Facebook
+    <a href="https://www.facebook.com/places/Cim-zajnatisa-v-Ivano-Frankivsk/108466925844385/"><img class="facebook" src="img/facebook.jpg" alt="facebook"></a>
+</p>
+-->
+
+        <form action="https://formspree.io/khrystyna@yandex.ru" method="post">
+            <fieldset>
+                <legend>Чекаємо на Ваші відгуки і пропозиції</legend>
+                <p>Чи сподобалося Вам у Івано - Франківську:</p>
+                <label>
+                <input type = "radio" name = "like" id = "like" value: "yes">Так
+                </label><br>
+                <label>
+                <input type = "radio" name = "like" id = "like" value: "no">Ні
+                </label><br>
+                <p>Що Вам найбільше запам'яталося:</p><br>
+                <label>
+                <input type = "checkbox" name = "place" value = "ratusha">Міська ратуша
+                </label><br>
+                <label>
+                <input type = "checkbox" name = "place" value = "lake">Міське озеро
+                </label><br>
+                <label>
+                <input type = "checkbox" name = "place" value = "kostel">Костел Діви Марії
+                </label><br><br>
+                <label for="age">Вкажіть, будь ласка, свій вік:
+                </label><br>
+                <input type="number" name="age" id="age" min="5" max="100"><br><br>
+                <label for="from">Вкажіть, будь ласка, звідки Ви приїхали:</label><br>
+                <input type="text" name="from" id="from"><br>
+                <p>Найкращий спосіб приїхати до Івано - Франківська, це </p>
+                <select name="transport">
+            <option value = "car">Власним авто</option>
+            <option value = "bus">Автобусом</option>
+            <option value = "plane">Літаком</option>
+            <option value = "train">Поїздом</option>
+        </select>
+                <br><br>
+                <p>Будемо раді Вашим відгукам, зауваженням та прапозиціям =)</p>
+                <textarea name="response" rows="10" cols="40"> </textarea>
+                <br><br>
+                <input type="submit" value="Надіслати">
+            </fieldset>
+        </form>
+
+
+
+        <br><br>
+        <p>Щоб з нами зв'язатися, натисніть наступну кнопку</p>
+        <button id="btn">Отримати дані</button>
+
+        <p>Назва:<span id="name"></span></p>
+        <p>Контактна адресса:<span id="address"></span></p>
+
+        <div id="pageLoaded"></div>
+
+        <script type="text/javascript" src="js/index.js"></script>
+    </div>
+
 </body>
 
 </html>

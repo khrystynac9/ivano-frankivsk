@@ -2,6 +2,7 @@ body {
     background-image: url(../img/background.jpg);
     max-width: 1500px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 header {}
@@ -288,8 +289,31 @@ p::first-letter {
 }
  
 .table-one {
-    border: 2px solid grey;
+    border: 2px solid black;
+    width: 90%;
 }
+table, th, td {
+    border: 1px solid black;
+    padding: 12px;
+}
+td:hover {
+    visibility: visible;
+}
+td {
+    visibility: hidden;
+}
+
+tr:nth-child(even) {
+    background-color: #B4DDFD;
+}
+tr:nth-child(odd) {
+    background-color: #E59ABA;
+}
+.body-info {
+    margin-left: 10%;
+}
+
+
 /*  font-family: 'Marck Script', cursive;
         font-family: 'Neucha', cursive;
         font-family: 'Poiret One', cursive;
