@@ -10,14 +10,15 @@ nav {
     clear: both;
     text-align: center;
     margin: 20px;
-  
 }
 
 
 /*початок теню*/
+
 .men {
     clear: both;
 }
+
 .flex-menu {
     display: -webkit-flex;
     display: flex;
@@ -43,7 +44,8 @@ nav {
     margin-top: 10px;
 }
 
-a, .dropbtn {
+a,
+.dropbtn {
     display: inline-block;
     color: #282421;
     text-align: center;
@@ -104,76 +106,96 @@ a:hover {
 /*кінець теню*/
 
 
-
-
-
 /* машинка */
-
 
 .small {
     height: 50px;
     width: auto;
-} 
- 
- .poruch {
-  float: left;
-  margin-right: 200px;
- }
- 
-.car {
- 
-  animation-name: drive;
-  animation-duration: 13s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
 }
-.polution{
-  animation-name: polution;
-  animation-duration: 0.2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-direction: alternate;
-}
-.rideEffect{
 
-  animation-name: ride-effect;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
-  animation-timing-function: linear;
-  animation-direction: alternate;
+.poruch {
+    float: left;
+    margin-right: 200px;
 }
-.welcome-effect{
-  animation-name: welcome;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
-  animation-direction: alternate;
-  transform: opacity 1s ease-in-out;
+
+.car {
+    animation-name: drive;
+    animation-duration: 13s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+
+.polution {
+    animation-name: polution;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+.rideEffect {
+    animation-name: ride-effect;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.welcome-effect {
+    animation-name: welcome;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    transform: opacity 1s ease-in-out;
+}
+
 @keyframes ride-effect {
-  from{    transform: scaleX(1);  }
-  to{    transform: scaleX(0.9);  }
+    from {
+        transform: scaleX(1);
+    }
+    to {
+        transform: scaleX(0.9);
+    }
 }
+
 @keyframes drive {
-  from{    transform: translateX(-600px);  }
-  to{    transform: translateX(900px);  }
+    from {
+        transform: translateX(-600px);
+    }
+    to {
+        transform: translateX(900px);
+    }
 }
+
 @keyframes polution {
-  from{    transform: rotate(-360deg);  }
-  to{    transform: rotate(0deg);  }
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
 }
+
 @keyframes welcome {
-  0% {opacity:1;}
-  45% {opacity:1;}
-  55% {opacity:0;}
-  100% {opacity:0;}
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 
 /*кінець машинки*/
-
 
 section {
     margin: 0 1.5%;
@@ -201,7 +223,6 @@ img.icon {
     width: 70px;
     height: 70px;
     margin-left: 0;
-   
 }
 
 img.icon:hover {
@@ -228,17 +249,15 @@ p::first-letter {
     color: #E64B93;
 }
 
-
 .tosee {
     clear: both;
     margin: 20px;
-
 }
 
 .ramka {
-clear: both;
-margin-top: 30px;
-margin-bottom: 30px;
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .relative-one {
@@ -252,20 +271,25 @@ margin-bottom: 30px;
 }
 
 .font-one {
-      font-family: 'Neucha', cursive;
+    font-family: 'Neucha', cursive;
 }
 
 .fakt {
     margin: 80px;
     margin-left: 140px;
 }
-    
-.facty{
-    list-style-type: disk;
 
+.facty {
+    list-style-type: disk;
 }
-    
-    
+
+.info-one {
+    margin-top: 200px;
+}
+ 
+.table-one {
+    border: 2px solid grey;
+}
 /*  font-family: 'Marck Script', cursive;
         font-family: 'Neucha', cursive;
         font-family: 'Poiret One', cursive;

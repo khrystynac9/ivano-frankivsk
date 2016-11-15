@@ -26,11 +26,10 @@
     float: left;
     max-width: 550px;
     margin: 20px;
-} 
+}
 
 .loc {
     width: 500px;
-    
 }
 
 .artic {
@@ -44,22 +43,24 @@
     height: auto;
     margin: 40px;
 }
+
 .foto-events-two {
     float: right;
     width: 700px;
     height: auto;
     margin: 40px;
-    
 }
-div.events {
+
+.events {
     margin-bottom: 80px;
     clear: both;
     margin-top: 50px;
+    
 }
 
 .step {
     margin-top: 200px;
-} 
+}
 
 .stars {
     clear: both;
@@ -72,8 +73,8 @@ div.events {
     height: auto;
     margin: 30px;
     border-radius: 20px;
-    
 }
+
 .text {
     margin: 30px;
     margin-top: 70px;
@@ -82,5 +83,5 @@ div.events {
 .video-one {
     width: 750px;
     height: auto;
-    margin: 30px;
+    margin: 80px;
 }
