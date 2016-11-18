@@ -5,138 +5,240 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>info</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="stylesheet" media="(min-width:750px)" href="index-lg.css" type="text/css">
     <link rel="stylesheet" media="(max-width:749px)" href="index-sm.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Marck+Script|Neucha|Pattaya|Poiret+One|Underdog" rel="stylesheet">
 </head>
 
-<body class="body-info">
-    <div class="relative-one">
-        <nav class="fixed-one">
-            <header>
-                <h1>Інформаційна сторінка</h1>
-            </header>
-            <div class="menu">
-                <div class="flex-menu">
-                    <div class="flex-item dropdown"><a href="have-to-see.html" class="dropbtn">Варто побачити</a>
-                        <div class="dropdown-content">
-                            <a href="have-to-see.html#ratus">Міська ратуша </a>
-                            <a href="have-to-see.html#kostelzyk">Колегіальний костел Діви Марії</a>
-                            <a href="have-to-see.html#park-one">Парк імені Тараса Шевченка"</a>
-                        </div>
-                    </div>
-                    <div class="flex-item dropdown"><a href="events.html" class="dropbtn">Цікаві події</a>
-                        <div class="dropdown-content">
-                            <a href="events.html#kovali">Свято ковалів </a>
-                            <a href="events.html#prostir">"Карпатський простір"</a>
-                            <a href="events.html#gogolfest">PORTO Franko Гогольfest</a>
-                        </div>
-                    </div>
-                    <div class="flex-item"><a href="index.html">Головне меню</a></div>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <div class="info-one">
-        <table class="table-one">
-            <caption> Перевір себе</caption><br>
-            <br>
-            <tr>
-                <th> Хто вважається офіційним засновником міста Станіславова?</th>
-                <td>Станіслав Потоцький</td>
-            </tr>
-            <tr>
-                <th> В якому році місто одержало Магдебурзьке право?</th>
-                <td>1662 р</td>
-            </tr>
-            <tr>
-                <th>Скільки в’їзних брам вело до Станіславова?</th>
-                <td>3 брами</td>
-            </tr>
-            <tr>
-                <th> Яку форму має сучасна Ратуша?</th>
-                <td>Форму хреста</td>
-            </tr>
-            <tr>
-                <th>Які птахи зображені на гербі Івано-Франківська?</th>
-                <td>Дві чорні галки</td>
-            </tr>
-            <tr>
-                <th>Як звали кохану Івана Франка, що мешкала в Івано-Франківську?</th>
-                <td>Юзефа Дзвонковська</td>
-            </tr>
-            <tr>
-                <th>Який навчальний заклад міста вважається найстарішим?</th>
-                <td>Прикарпатський університет, заснований 1940 р.</td>
-            </tr>
-            <tr>
-                <th>В якому місяці проходить щорічний фестиваль «Свято ковалів»</th>
-                <td>травень</td>
-            </tr>
-        </table><br><br>
 
-        <!--        <p>Більше Ви можете дізнатися, завітавши на офіційний сайт міста <a href="http://www.mvk.if.ua/">Івано-Франківськ.</p>
+
+
+
+
+<!--menu-->
+
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand" href="index.html">Головне меню</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="have-to-see.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Варто побачити <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="have-to-see.html#ratus">Міська ратуша </a></li>
+                        <li><a href="have-to-see.html#kostelzyk">Колегіальний костел Діви Марії</a></li>
+                        <li><a href="have-to-see.html#park-one">Парк імені Тараса Шевченка"</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="events.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Цікаві події <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="events.html#kovali">Свято ковалів </a></li>
+                        <li><a href="events.html#prostir">"Карпатський простір"</a></li>
+                        <li><a href="events.html#gogolfest">PORTO Franko Гогольfest</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+
+
+<!--кінець меню>-->
+
+
+
+
+
+
+<!-- каруселька-->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="cat.jpg" alt="Cat">
+        </div>
+
+        <div class="item">
+            <img src="feya-luny-kot.jpg.jpg" alt="Chania">
+        </div>
+
+        <div class="item">
+            <img src="cat.jpg" alt="Flower">
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<!--кінець карусельки-->
+
+
+
+
+
+
+
+<div class="container">
+    <table class="table table-hover">
+        <div class="page-header">
+         <h2>Перевір себе</h2>
+         </div>
+        <tr>
+            <th> Хто вважається офіційним засновником міста Станіславова?</th>
+            <td>Станіслав Потоцький</td>
+        </tr>
+        <tr>
+            <th> В якому році місто одержало Магдебурзьке право?</th>
+            <td>1662 р</td>
+        </tr>
+        <tr>
+            <th>Скільки в’їзних брам вело до Станіславова?</th>
+            <td>3 брами</td>
+        </tr>
+        <tr>
+            <th> Яку форму має сучасна Ратуша?</th>
+            <td>Форму хреста</td>
+        </tr>
+        <tr>
+            <th>Які птахи зображені на гербі Івано-Франківська?</th>
+            <td>Дві чорні галки</td>
+        </tr>
+        <tr>
+            <th>Як звали кохану Івана Франка, що мешкала в Івано-Франківську?</th>
+            <td>Юзефа Дзвонковська</td>
+        </tr>
+        <tr>
+            <th>Який навчальний заклад міста вважається найстарішим?</th>
+            <td>Прикарпатський університет, заснований 1940 р.</td>
+        </tr>
+        <tr>
+            <th>В якому місяці проходить щорічний фестиваль «Свято ковалів»</th>
+            <td>травень</td>
+        </tr>
+    </table>
+</div>
+<br><br>
+
+<!--        <p>Більше Ви можете дізнатися, завітавши на офіційний сайт міста <a href="http://www.mvk.if.ua/">Івано-Франківськ.</p>
 <p>Aбо ж знайдіть нас у Facebook
     <a href="https://www.facebook.com/places/Cim-zajnatisa-v-Ivano-Frankivsk/108466925844385/"><img class="facebook" src="img/facebook.jpg" alt="facebook"></a>
 </p>
 -->
 
-        <form action="https://formspree.io/khrystyna@yandex.ru" method="post">
-            <fieldset>
-                <legend>Чекаємо на Ваші відгуки і пропозиції</legend>
-                <p>Чи сподобалося Вам у Івано - Франківську:</p>
-                <label>
-                <input type = "radio" name = "like" id = "like" value: "yes">Так
+
+
+
+
+<div class="container">
+
+    <form action="https://formspree.io/khrystyna@yandex.ru" method="post">
+
+        <fieldset>
+            <div class="page-header">
+            <h2>Чекаємо на Ваші відгуки і пропозиції</h2>
+            </div>
+            <div><b>Чи сподобалося Вам у Івано - Франківську:</b></div>
+            <label>
+                <input type = "radio" name = "like" id = "like" value: "yes">  Так
                 </label><br>
-                <label>
-                <input type = "radio" name = "like" id = "like" value: "no">Ні
-                </label><br>
-                <p>Що Вам найбільше запам'яталося:</p><br>
-                <label>
-                <input type = "checkbox" name = "place" value = "ratusha">Міська ратуша
-                </label><br>
-                <label>
-                <input type = "checkbox" name = "place" value = "lake">Міське озеро
-                </label><br>
-                <label>
-                <input type = "checkbox" name = "place" value = "kostel">Костел Діви Марії
+            <label>
+                <input type = "radio" name = "like" id = "like" value: "no">  Ні
                 </label><br><br>
-                <label for="age">Вкажіть, будь ласка, свій вік:
+            <div><b>Що Вам найбільше запам'яталося:</b></div>
+            <label>
+                <input type = "checkbox" name = "place" value = "ratusha">  Міська ратуша
                 </label><br>
-                <input type="number" name="age" id="age" min="5" max="100"><br><br>
-                <label for="from">Вкажіть, будь ласка, звідки Ви приїхали:</label><br>
-                <input type="text" name="from" id="from"><br>
-                <p>Найкращий спосіб приїхати до Івано - Франківська, це </p>
-                <select name="transport">
+            <label>
+                <input type = "checkbox" name = "place" value = "lake">  Міське озеро
+                </label><br>
+            <label>
+                <input type = "checkbox" name = "place" value = "kostel">  Костел Діви Марії
+                </label><br><br>
+            <label for="age">  Вкажіть, будь ласка, свій вік:
+                </label><br>
+            <input type="number" name="age" id="age" min="5" max="100" required><br><br>
+            <label for="from"> Вкажіть, будь ласка, звідки Ви приїхали:</label><br>
+            <input type="text" name="from" id="from" required><br><br>
+            <div><b>Найкращий спосіб приїхати до Івано - Франківська, це </b></div>
+            <select name="transport">
             <option value = "car">Власним авто</option>
             <option value = "bus">Автобусом</option>
             <option value = "plane">Літаком</option>
             <option value = "train">Поїздом</option>
         </select>
-                <br><br>
-                <p>Будемо раді Вашим відгукам, зауваженням та прапозиціям =)</p>
-                <textarea name="response" rows="10" cols="40"> </textarea>
-                <br><br>
-                <input type="submit" value="Надіслати">
-            </fieldset>
-        </form>
+            <br><br>
+            <div><b>Будемо раді Вашим відгукам, зауваженням та прапозиціям =)</b></div>
+            <textarea name="response" rows="10" cols="40" placeholder = "Ваші думки"> </textarea>
+            <br><br>
+            <input type="submit" value="Надіслати">
+        </fieldset>
+
+    </form>
+</div>
 
 
-
-        <br><br>
-        <p>Щоб з нами зв'язатися, натисніть наступну кнопку</p>
-        <button id="btn">Отримати дані</button>
-
-        <p>Назва:<span id="name"></span></p>
-        <p>Контактна адресса:<span id="address"></span></p>
-        <p>Контактний телефон:<span id="tel"></span></p>
+<br><br><br>
+<div class="container">
+    <div class="jumbotron">
+        <p>Щоб з нами зв'язатися, натисніть наступну кнопку <button id="btn">Отримати дані</button></p>
+        
+        <p>Контактна адресса: <span id="address"></span></p>
+        <p>Контактний телефон: <span id="tel"></span></p>
 
         <div id="pageLoaded"></div>
 
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/click.js"></script>
     </div>
-
+</div>
 </body>
 
 </html>

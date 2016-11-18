@@ -11,6 +11,7 @@ nav {
     clear: both;
     text-align: center;
     margin: 20px;
+  
 }
 
 
@@ -18,11 +19,19 @@ nav {
 
 .men {
     clear: both;
+    margin-top: 410px;
+}
+
+
+.men-one {
+    clear: both;
+    margin-top: 50px;
 }
 
 .flex-menu {
     display: -webkit-flex;
     display: flex;
+    top: 0;
 }
 
 .flex-item {
@@ -43,6 +52,9 @@ nav {
     position: relative;
     float: left;
     margin-top: 10px;
+    z-index: 1;
+    position: absolut;
+   
 }
 
 a,
@@ -116,7 +128,7 @@ a:hover {
 
 .poruch {
     float: left;
-    margin-right: 200px;
+    margin-right: 400px;
 }
 
 .car {
@@ -125,6 +137,7 @@ a:hover {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+   
 }
 
 .polution {
@@ -256,9 +269,12 @@ p::first-letter {
 }
 
 .ramka {
+    position: absolute;
+    z-index: -1;
     clear: both;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 30px;
+  
 }
 
 .relative-one {
@@ -269,6 +285,7 @@ p::first-letter {
 .fixed-one {
     position: fixed;
     margin-top: 0;
+    top: 0;
 }
 
 .font-one {
@@ -284,30 +301,19 @@ p::first-letter {
     list-style-type: disk;
 }
 
-.info-one {
-    margin-top: 200px;
-}
+
  
-.table-one {
-    border: 2px solid black;
-    width: 90%;
-}
-table, th, td {
-    border: 1px solid black;
-    padding: 12px;
-}
+
+
 td:hover {
     visibility: visible;
 }
-td {
-    visibility: hidden;
-}
 
 tr:nth-child(even) {
-    background-color: #B4DDFD;
+    background-color:#FCEBFC;
 }
 tr:nth-child(odd) {
-    background-color: #E59ABA;
+    background-color:#E1F4FC;
 }
 .body-info {
     margin-left: 10%;

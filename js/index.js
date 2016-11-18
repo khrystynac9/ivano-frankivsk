@@ -6,7 +6,6 @@ function makeAjax() {
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             var clientData = JSON.parse(xhr.responseText);
-            name.innerHTML = clientData.name;
             address.innerHTML = clientData.address;
             tel.innerHTML = clientData.tel;
         }
