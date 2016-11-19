@@ -320,6 +320,14 @@ tr:nth-child(odd) {
 }
 
 
+#myCarousel {
+    max-height: 400px
+    margin: 0 auto;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
 /*  font-family: 'Marck Script', cursive;
         font-family: 'Neucha', cursive;
         font-family: 'Poiret One', cursive;
